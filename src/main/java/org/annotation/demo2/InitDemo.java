@@ -1,4 +1,4 @@
-package org.annotation;
+package org.annotation.demo2;
 
 public class InitDemo {
     @InitMethod

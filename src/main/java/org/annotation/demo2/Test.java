@@ -1,10 +1,10 @@
-package org.annotation;
+package org.annotation.demo2;
 
 import java.lang.reflect.Method;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        Class<?> clazz = Class.forName("org.annotation.InitDemo");
+        Class<?> clazz = Class.forName("org.annotation.demo2.InitDemo");
         Method[] methods = clazz.getMethods();
         if (methods != null) {
             for (Method method : methods) {
